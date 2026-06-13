@@ -17,8 +17,8 @@
 
 ```bash
 mysql -u root -p -e "CREATE DATABASE movie_engine DEFAULT CHARSET utf8mb4;"
-mysql -u root -p --default-character-set=utf8mb4 movie_engine < src/main/resources/sql/init.sql
-mysql -u root -p --default-character-set=utf8mb4 movie_engine < src/main/resources/sql/data.sql
+mysql -u root -p --default-character-set=utf8mb4 movie_engine < yourpath/src/main/resources/sql/init.sql
+mysql -u root -p --default-character-set=utf8mb4 movie_engine < yourpath/src/main/resources/sql/data.sql
 ```
 
 ### 2. 启动 Redis
